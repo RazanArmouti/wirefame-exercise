@@ -61,7 +61,7 @@ main{
     
 }
 #lastSecDiv p{
-   overflow-y: scroll;
+   overflow-y: hidden;
     
 }
 h1{
