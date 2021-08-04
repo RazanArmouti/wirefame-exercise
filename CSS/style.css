@@ -60,6 +60,10 @@ main{
   padding: 10px 15px 10px 15px;
     
 }
+#lastSecDiv p{
+   overflow-y: scroll;
+    
+}
 h1{
     font-size:large;
 }
