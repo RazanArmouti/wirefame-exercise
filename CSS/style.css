@@ -31,9 +31,7 @@ main img{
    
     
 }
-main{
-    
-}
+
 main section:nth-child(2){
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -46,24 +44,32 @@ main section:nth-child(3){
     gap: 100px;
 
 }
-main section:nth-child(3) article{
+main section:nth-child(3) div article{
+    
+    overflow-y: scroll;
+   line-height: 1.5;
+   height: 340px;
+  
+  
+    
+}
+main section:nth-child(3) div {
     display: table-row;
     margin-top: 20px;
     width: 450px;
     margin-bottom: 40px;
-    
+    height: 400px;
+
 }
 main section:nth-child(3) a{
     color: white;
     background-color: black;
     text-decoration: none;
   padding: 10px 15px 10px 15px;
+ 
     
 }
-main section:nth-child(3) p{
-   overflow-y: hidden;
-    
-}
+
 h1{
     font-size:large;
 }
