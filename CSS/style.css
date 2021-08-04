@@ -46,7 +46,7 @@ main section:nth-child(3){
     gap: 100px;
 
 }
-main section:nth-child(3) Div{
+main section:nth-child(3) article{
     display: table-row;
     margin-top: 20px;
     width: 450px;
