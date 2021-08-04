@@ -34,33 +34,33 @@ main img{
 main{
     
 }
-#imgSec{
+main section:nth-child(2){
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 29px;
     
 }
-#lastSec{
+main section:nth-child(3){
     display: grid;
     grid-template-columns: 480px auto;
     gap: 100px;
 
 }
-#lastSecDiv{
+main section:nth-child(3) Div{
     display: table-row;
     margin-top: 20px;
     width: 450px;
     margin-bottom: 40px;
     
 }
-#lastSecDiv a{
+main section:nth-child(3) a{
     color: white;
     background-color: black;
     text-decoration: none;
   padding: 10px 15px 10px 15px;
     
 }
-#lastSecDiv p{
+main section:nth-child(3) p{
    overflow-y: hidden;
     
 }
